@@ -582,6 +582,7 @@ if bool_login :
     # 'aGenbutuKabuList'の返値の処理。
     # データ形式は、"aGenbutuKabuList":[{...},{...}, ... ,{...}]
     for i in range(len(list_aGenbutuKabuList)):
+        print('No.', i+1, '---------------')
         print('16- 1 警告コード:\t', list_aGenbutuKabuList[i].get('sUriOrderWarningCode'))
         print('17- 2 警告テキスト:\t', list_aGenbutuKabuList[i].get('sUriOrderWarningText'))
         print('18- 3 銘柄コード:\t', list_aGenbutuKabuList[i].get('sUriOrderIssueCode'))
